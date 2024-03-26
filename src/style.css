@@ -204,11 +204,15 @@ body{
 .collage-img{
     border-radius: 20px;
     max-height:430px;
+    min-height: 200px;
     max-width: 200px;
 }
 
 .img-title{
     position: absolute;
+    text-wrap: wrap;
+    width: 200px;
+    text-align: center;
     color: #FFFFFF;
     z-index: 2;
 }
